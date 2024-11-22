@@ -12,7 +12,8 @@ function ProjectCard({ project }) {
   };
 
   return (
-    <div className="project-card">
+    
+            <div className="project-card">
       <div className="project-image-container">
         {project.images && project.images.length > 0 ? (
           <img
@@ -57,7 +58,7 @@ function ProjectCard({ project }) {
 
         <Button
           variant="text"
-          color="primary"
+          color="violet"
           onClick={toggleViewMore}
           style={{ marginTop: "10px" }}
         >
@@ -78,6 +79,7 @@ function ProjectCard({ project }) {
         </div>
       </div>
     </div>
+    
   );
 }
 

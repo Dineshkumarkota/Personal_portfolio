@@ -3,10 +3,10 @@
     background-image: url('https://img.freepik.com/free-vector/paper-style-dynamic-lines-background_23-2149008629.jpg');
     background-size: cover;
     background-position: center;
-    padding: 80px 40px;
+    padding: 50px 20px;
     color: #fff; /* Text color for readability */
     border-radius: 20px;
-    margin: 30px;
+    margin: 20px;
   }
   
   .about-container {
@@ -35,7 +35,7 @@
   .about-content {
     flex: 2;
     max-width: 600px;
-    background-color: rgba(0, 0, 0, 0.6); /* Semi-transparent overlay */
+    background-color: rgba(10, 4, 4, 0.6); /* Semi-transparent overlay */
     padding: 30px;
     border-radius: 18px;
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5);
@@ -51,6 +51,7 @@
     font-size: 1rem;
     line-height: 1.6;
     margin-bottom: 20px;
+  color:#fff
   }
   
   .skills {
@@ -61,19 +62,19 @@
   .skills h3 {
     font-size: 1.1rem;
     margin-bottom: 20px;
-    color: rosybrown;
+    color: rgb(194, 97, 97);
   }
   
   .skill-badge {
     background-color: #4caf50;
-    color: #fff;
+ 
     padding: 8px 14px;
-    border-radius: 18px;
-    margin: 5px;
+    border-radius: 16px;
+    margin: 8px;
     font-size: 1rem;
     transition: transform 0.3s ease, background-color 0.3s ease;
     font-family:'Montserrat','sans-serif' ;
-    color: #2c3e50;
+    color: #0f43b3;
     font-weight: bolder;
   }
   

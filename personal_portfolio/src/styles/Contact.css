@@ -2,7 +2,8 @@
 .contact {
     padding: 60px 20px;
     background: linear-gradient(135deg, #f7f7f7, #e4e4e4); /* Gradient background for depth */
-    margin: 20px;
+    margin:30px 30px 0 30px;
+    border-radius: 10px;
   }
   
   .contact-container {
@@ -12,14 +13,14 @@
   }
   
   .contact h2 {
-    font-family: 'Poppins', sans-serif; /* Modern font */
+    font-family: 'Montserrat', sans-serif; /* Modern font */
     font-size: 2rem;
     margin-bottom: 20px;
     color: #333;
   }
   
   .contact p {
-    font-family: 'Roboto', sans-serif; /* Legible font for description */
+    font-family: 'Montserrat', sans-serif; /* Legible font for description */
     font-size: 1.1rem;
     color: #555;
     margin-bottom: 20px;
@@ -79,16 +80,16 @@
   }
   
   .contact-links a {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     margin-right: 15px;
-    color: #4caf50;
+    color: #13d142;
     transition: color 0.3s ease;
   }
   
   .contact-links a:hover {
     color: #45a049;
     text-decoration: none;
-  }
+  } 
   
   /* Mobile responsiveness */
   @media (max-width: 768px) {

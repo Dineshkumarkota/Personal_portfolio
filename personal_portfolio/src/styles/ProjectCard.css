@@ -1,7 +1,7 @@
 .project-card {
     display: flex;
     /* flex-direction: column; */
-    background-color: #fff;
+    background-color: #ddd6eb;
     border-radius: 8px;
     box-shadow: 0 8px 10px rgba(187, 4, 4, 0.1);
     margin: 20px 20px;
@@ -17,10 +17,11 @@
   }
   
   .project-image-container {
-    width: 100%; /* Make image container full-width */
-    height: 300px; /* Set a fixed height for the image container */
+    width: 130%; /* Make image container full-width */
+    height: 280px; /* Set a fixed height for the image container */
     overflow: hidden; /* Ensure image is contained within bounds */
     margin-bottom: 20px; /* Space between image and text */
+    
   }
   
   .project-image {
@@ -42,13 +43,13 @@
   }
   
   .project-date {
-    color: #777;
+    color: #381a7c;
     font-size: 0.9rem;
   }
   
   .project-overview {
     margin: 10px 0;
-    color: #444;
+    color: #0a0707;
   }
   
   .project-details {
@@ -78,7 +79,7 @@
   }
   
   .project-links a:hover {
-    color: #007BFF;
+    color: #920707;
   }
   
   .view-more-btn {

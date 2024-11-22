@@ -4,7 +4,7 @@ body {
     font-size: 16px;
     line-height: 1.6;
     color: #333;
-    /* background-color: #f4f4f9; */
+    background-color: #4d4d6e; 
     margin: 0;
     padding: 0;
   }
@@ -13,13 +13,13 @@ body {
   h1, h2, h3 {
     font-family: 'Montserrat', sans-serif;
     font-weight: 600;
-    color: #222;
+    color: #bbce15;
     margin: 1rem 0;
   }
   
   /* Buttons and Links */
   button, a {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-weight: 500;
     color: #fff;
     text-decoration: none;
@@ -34,12 +34,13 @@ body {
   }
   
   button:hover {
-    background-color: #0056b3;
+    background-color: #4a8a6c;
+    
   }
   
   /* Cards */
   .project-card {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-size: 14px;
     line-height: 1.5;
   }
@@ -48,12 +49,19 @@ body {
   .project-card h3 {
     font-family: 'Montserrat', sans-serif;
     font-weight: 600;
-    color: #2c3e50;
+    color: #34414e;
   }
-  p,li {
-    font-family: 'Inter', sans-serif; /* Modern and clean font */
+  p,ul {
+    font-family: 'Montserrat', sans-serif; /* Modern and clean font */
     font-size: 1rem;                 /* Default size for good readability */
     line-height: 1.8;                /* Improve readability with better spacing */
-    color: #333;                     /* Neutral color for text */
+    color: #0f0e0e;                     /* Neutral color for text */
     margin: 0 0 1rem;                /* Add consistent spacing below paragraphs */
   }
+h4{
+    font-family: "Montserrat";
+    font-weight: bolder;
+    line-height: 2;
+    color: #0f0303;
+    font-size: 1.2rem;
+}
