@@ -1,0 +1,59 @@
+/* General Styles */
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    color: #333;
+    /* background-color: #f4f4f9; */
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Headings */
+  h1, h2, h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    color: #222;
+    margin: 1rem 0;
+  }
+  
+  /* Buttons and Links */
+  button, a {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  button {
+    background-color: #007BFF;
+    border: none;
+    border-radius: 4px;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Cards */
+  .project-card {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    line-height: 1.5;
+  }
+  
+  /* Project Titles */
+  .project-card h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    color: #2c3e50;
+  }
+  p,li {
+    font-family: 'Inter', sans-serif; /* Modern and clean font */
+    font-size: 1rem;                 /* Default size for good readability */
+    line-height: 1.8;                /* Improve readability with better spacing */
+    color: #333;                     /* Neutral color for text */
+    margin: 0 0 1rem;                /* Add consistent spacing below paragraphs */
+  }

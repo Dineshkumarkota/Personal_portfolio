@@ -1,0 +1,34 @@
+.project-list {
+    padding: 40px 20px;
+    background-color: #f9f9f9;
+  }
+  
+  .project-list h2 {
+    text-align: center;
+    font-size: 2rem;
+    color: #2c0909;
+    margin-bottom: 40px;
+  }
+  
+  .project-cards-container {
+    display: flex; /* Use flexbox for layout */
+    flex-direction: column; /* Ensure all cards stack vertically */
+    gap: 30px; /* Add space between cards */
+    align-items: center; /* Center cards horizontally */
+  }
+  
+  /* No responsive layout changes - Keep column-by-column for all screen sizes */
+  .project-card {
+    width: 70%; /* Ensure cards take full width of the container */
+    max-width: 600px; /* Limit the maximum card width */
+    box-shadow: 0 4px 10px rgba(110, 84, 84, 0.1);
+    border-radius: 8px;
+    padding: 20px;
+    background-color: #fff;
+  }
+  
+  .project-card:hover {
+    transform: scale(1.03);
+    transition: transform 0.3s ease-in-out;
+  }
+  

@@ -1,0 +1,112 @@
+.project-card {
+    display: flex;
+    /* flex-direction: column; */
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 8px 10px rgba(187, 4, 4, 0.1);
+    margin: 20px 20px;
+    padding: 30px;
+    max-width: 1000px; /* Prevent card from being too wide */
+    transition: transform 0.3s ease-in-out;
+    overflow: hidden; /* Prevent content from overflowing */
+   
+  }
+  
+  .project-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .project-image-container {
+    width: 100%; /* Make image container full-width */
+    height: 300px; /* Set a fixed height for the image container */
+    overflow: hidden; /* Ensure image is contained within bounds */
+    margin-bottom: 20px; /* Space between image and text */
+  }
+  
+  .project-image {
+    width: 80%;
+    height: 100%;
+    object-fit: cover; /* Make image cover the container without distorting aspect ratio */
+    border-radius: 8px;
+  }
+  
+  .project-info {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .project-info h3 {
+    font-size: 1.5rem;
+    color: #2c0909;
+    margin-bottom: 10px;
+  }
+  
+  .project-date {
+    color: #777;
+    font-size: 0.9rem;
+  }
+  
+  .project-overview {
+    margin: 10px 0;
+    color: #444;
+  }
+  
+  .project-details {
+    margin-top: 20px;
+  }
+  
+  .project-details h4 {
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  .project-details ul {
+    margin: 0;
+    padding-left: 20px;
+    list-style-type: circle;
+  }
+  
+  .project-links {
+    margin-top: 15px;
+    display: flex;
+    justify-content: flex-start;
+    gap: 15px;
+  }
+  
+  .project-links a {
+    color: #333;
+  }
+  
+  .project-links a:hover {
+    color: #007BFF;
+  }
+  
+  .view-more-btn {
+    margin-top: 25px;
+    align-self: center;
+  }
+  
+  .project-card.expanded {
+    max-height: none; /* Allow expansion for content */
+    padding-bottom: 20px; /* Add spacing for the expanded content */
+  }
+  
+  .project-list {
+    padding: 40px;
+    background-color: #f9f9f9;
+  }
+  
+  .project-cards-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  
+  @media (max-width: 768px) {
+    .project-cards-container {
+      flex-direction: column;
+    }
+  }
+  
+  

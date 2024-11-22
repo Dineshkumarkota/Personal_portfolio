@@ -1,0 +1,96 @@
+.about {
+    position: relative;
+    background-image: url('https://img.freepik.com/free-vector/paper-style-dynamic-lines-background_23-2149008629.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 80px 40px;
+    color: #fff; /* Text color for readability */
+    border-radius: 20px;
+    margin: 30px;
+  }
+  
+  .about-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    gap: 20px;
+  }
+  
+  .about-photo {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .about-photo img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+  }
+  
+  .about-content {
+    flex: 2;
+    max-width: 600px;
+    background-color: rgba(0, 0, 0, 0.6); /* Semi-transparent overlay */
+    padding: 30px;
+    border-radius: 18px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5);
+  }
+  
+  .about h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: aquamarine;
+  }
+  
+  .about p {
+    font-size: 1rem;
+    line-height: 1.6;
+    margin-bottom: 20px;
+  }
+  
+  .skills {
+    margin-top: 20px;
+  
+  }
+  
+  .skills h3 {
+    font-size: 1.1rem;
+    margin-bottom: 20px;
+    color: rosybrown;
+  }
+  
+  .skill-badge {
+    background-color: #4caf50;
+    color: #fff;
+    padding: 8px 14px;
+    border-radius: 18px;
+    margin: 5px;
+    font-size: 1rem;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+    font-family:'Montserrat','sans-serif' ;
+    color: #2c3e50;
+    font-weight: bolder;
+  }
+  
+  .skill-badge:hover {
+    transform: scale(1.1);
+    background-color: #45a049;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .about-container {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .about-photo {
+      margin-bottom: 20px;
+    }
+  }
+  

@@ -1,20 +1,22 @@
 import React from 'react';
-function App(){
-  return(
-    <div>
-    {/*header*/}
-    <header>
-      <h1>My Portfolio</h1>
-      <nav>
-        <ul>
-          <li><a href='About me'>About Me</a></li>
-          <li><a href='projects'>Projects</a></li>
-          <li><a href='skills'>Skills</a></li>
-          <li><a href='contact'>Contact</a></li>
-        </ul>
-      </nav>
-    </header>
+import Header from './components/Header';
+import AboutMe from './components/AboutMe';
+import ProjectList from './components/ProjectList';
+import Contact from './components/Contact';
+import Skills from './components/Skills';
+import './App.css';
+
+function App() {
+  return (
+    <div className="App">
+      <Header />
+      <AboutMe />
+      <ProjectList />
+      <Skills/>
+      <Contact />
+     
     </div>
-  )
+  );
 }
+
 export default App;
